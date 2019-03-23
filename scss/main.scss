@@ -105,21 +105,10 @@ body{
   a{
     display: flex;
     align-items: center;
-    // border-color: #ccc;
     font-weight: 900;
     color: white !important;
-    
-    // background: {
-    //   image: linear-gradient(45deg,$primary-color 50%, transparent 50%);
-    //   position: 100%;
-    //   size: 400%;
-    //  }
     transition: background 200ms ease-in-out;
     &:hover {
-      // color: $primary-color;
-      // border: 1px solid white;
-      // background-position: 0;
-
       font-weight: 900;
       color:#f82249 !important;
       text-decoration: none;
@@ -131,13 +120,8 @@ body{
 
 #caroselIndicators {
   height: 100vh;
-  // background-color: rgba(0,0,0,0.5);
-  // ol {
-  //   list-style-type: none;
-  // }
   .carousel-item{
     background-size: cover;
-    // z-index: -1;
     background-position: center;
     font-family: $font-family;
     height: 100vh;
@@ -163,22 +147,16 @@ body{
         background-color: transparent;
       }
     }
-      // Animation carousel caption
     }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     height: 30px;
     width: 30px;
     outline: white;
-    // background-size: 100%, 100%;
   } 
 }
 
-.carousel-item{
-  
-}
 #about-us{
-  // height: 100vh;
   .jumbotron{
     background-color: white;
   }
@@ -402,7 +380,7 @@ body{
 }
 
 #subscribe{
-
+  // margin-top: 5rem;
   .section-header {
     margin-bottom: 60px;
     position: relative;
@@ -442,7 +420,7 @@ body{
       background-size: cover;
       overflow: hidden;
       position: relative;
-      min-height: 60vh;
+      min-height: 30vh;
   }
 
   .subscribe:before {
@@ -473,6 +451,7 @@ body{
 
   .subscribe button {
     border: 0;
+    // margin: 1rem 1rem;
     padding: 9px 25px;
     cursor: pointer;
     background: $primary-color;
@@ -526,7 +505,7 @@ body{
       margin: 0 auto;
     }
     p {
-      text-align: left;
+      text-align: center;
       font-size: .9rem;
     }
     .social-links a{
@@ -600,6 +579,30 @@ body{
 // Extra small devices (portrait phones, less than 576px)
 
 
+// news
+#news-item{
+  background-color: rgb(211, 208, 208);
+  .card{
+    font-family: $font-family;
+    margin: 5rem auto;
+    width: 40vw;
+    box-shadow: 0px 5px 20px rgba(8, 8, 8, 0.199);
+    img {
+      width: 100%;
+      // margin: 0 auto;
+      height: 20%;
+    }
+    h5{
+      font-size: 2rem;
+      letter-spacing: 0.08rem;
+    }
+    p{
+      font-size: .9rem;
+      letter-spacing: 0.08rem;
+      text-align: justify;
+    }
+  }
+}
 // About Us Page
 #about-us-page{
   .card{

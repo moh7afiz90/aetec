@@ -432,7 +432,7 @@ body {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  min-height: 60vh; }
+  min-height: 30vh; }
 
 #subscribe .subscribe:before {
   content: "";
@@ -499,7 +499,7 @@ body {
       height: 70px;
       margin: 0 auto; }
     #contact-us .about p {
-      text-align: left;
+      text-align: center;
       font-size: .9rem; }
     #contact-us .about .social-links a {
       text-align: center;
@@ -550,6 +550,24 @@ body {
     box-shadow: 0px 5px 20px rgba(85, 85, 85, 0.199);
     border: 0.05rem solid rgba(255, 255, 255, 0.507);
     margin: .8rem auto; }
+
+#news-item {
+  background-color: #d3d0d0; }
+  #news-item .card {
+    font-family: "Lato", sans-serif;
+    margin: 5rem auto;
+    width: 40vw;
+    box-shadow: 0px 5px 20px rgba(8, 8, 8, 0.199); }
+    #news-item .card img {
+      width: 100%;
+      height: 20%; }
+    #news-item .card h5 {
+      font-size: 2rem;
+      letter-spacing: 0.08rem; }
+    #news-item .card p {
+      font-size: .9rem;
+      letter-spacing: 0.08rem;
+      text-align: justify; }
 
 #about-us-page {
   margin: 5rem 0; }
