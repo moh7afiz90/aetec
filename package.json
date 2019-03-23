@@ -1,0 +1,14 @@
+{
+  "name": "aetec_website_second",
+  "version": "1.0.0",
+  "description": "AETEC website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Mohanad Elhag",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
