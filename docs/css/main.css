@@ -307,16 +307,16 @@ body {
         opacity: 1; }
 
 #about-us .course:hover {
-  background-image: url(/dist/assets/img/about-us/study.png); }
+  background-image: url(/docs/assets/img/about-us/study.png); }
 
 #about-us .study:hover {
-  background-image: url(/dist/assets/img/about-us/instructor.png); }
+  background-image: url(/docs/assets/img/about-us/instructor.png); }
 
 #about-us .school:hover {
-  background-image: url(/dist/assets/img/about-us/training.png); }
+  background-image: url(/docs/assets/img/about-us/training.png); }
 
 #about-us .graduation:hover {
-  background-image: url(/dist/assets/img/about-us/certifiate.png); }
+  background-image: url(/docs/assets/img/about-us/certifiate.png); }
 
 #about-us a {
   text-transform: capitalize; }
@@ -442,7 +442,7 @@ body {
 
 #subscribe .subscribe {
   padding: 15vh 0;
-  background: url(/dist/assets/img/contact-bg.png) center center no-repeat;
+  background: url(/docs/assets/img/contact-bg.png) center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
