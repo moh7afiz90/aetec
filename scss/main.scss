@@ -104,7 +104,7 @@ body{
   h6{
     font-size: 1.5rem;
   }
-  a[type="button"]{
+  a{
     border-color: #ccc;
     font-weight: 900;
     color: $primary-color;
@@ -113,12 +113,11 @@ body{
       position: 100%;
       size: 400%;
      }
-    transition: background 300ms ease-in-out;
+    transition: background 200ms ease-in-out;
     &:hover {
       background-position: 0;
-      color: black;
       font-weight: 900;
-      background-color: $primary-color;
+      background-color: rgba($primary-color,0.01);
       text-decoration: none;
     }
   }
@@ -147,8 +146,10 @@ body{
   .carousel-caption{
     height: 70vh;
     text-align: left;
-    // transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
     a {
+      font-size: 1.2rem;
+      border: 1px solid $white-color;
       border-radius: 30px;
       color: $primary-color;
       text-transform: uppercase;
@@ -156,13 +157,6 @@ body{
       &:hover{
         color: $white-color;
         background-color: transparent;
-        // background-color: $white-color;
-      }
-      h6{
-        padding: 0.3rem .6rem;
-        margin: 0 auto;
-        font-weight: 700;
-        font-size: 1.4rem;
       }
     }
       // Animation carousel caption
@@ -176,7 +170,9 @@ body{
   } 
 }
 
-
+.carousel-item{
+  
+}
 #about-us{
   // height: 100vh;
   .jumbotron{
@@ -259,22 +255,22 @@ body{
   }
   .course{
     &:hover{
-      background-image: url(/docs/assets/img/about-us/study.png);
+      background-image: url(../assets/img/about-us/study.png);
     }
   }
   .study{
     &:hover{
-      background-image: url(/docs/assets/img/about-us/instructor.png);
+      background-image: url(../assets/img/about-us/instructor.png);
     }
   }
   .school{
     &:hover{
-      background-image: url(/docs/assets/img/about-us/training.png);
+      background-image: url(../assets/img/about-us/training.png);
     }
   }
   .graduation{
     &:hover{
-      background-image: url(/docs/assets/img/about-us/certifiate.png);
+      background-image: url(../assets/img/about-us/certifiate.png);
     }
   }
   a{
@@ -289,7 +285,7 @@ body{
 
 #course{
   .card {
-    width: 300px;
+    width: 260px;
     height: 400px;
     margin: 0.5rem;
     background-color: white;
@@ -352,7 +348,7 @@ body{
     .news-card-img {
       // padding: 0 auto;
       width: 100%;
-      height: 95%;
+      height: 96%;
     }
     h6{
       text-transform: capitalize;
@@ -438,7 +434,7 @@ body{
   }
   .subscribe {
       padding: 15vh 0;
-      background: url(/docs/assets/img/contact-bg.png) center center no-repeat;
+      background: url(../assets/img/contact-bg.png) center center no-repeat;
       background-size: cover;
       overflow: hidden;
       position: relative;
@@ -504,7 +500,7 @@ body{
   .line-contact{
     display: none;
   }
-  margin-top: 4rem;
+  margin-top: 2rem;
   background-color: #4d4b4bea;
   color: white;
   width: 100vw;
