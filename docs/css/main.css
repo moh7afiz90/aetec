@@ -293,16 +293,16 @@ body {
         opacity: 1; }
 
 #about-us .course:hover {
-  background-image: url(../assets/img/about-us/study.png); }
+  background-color: #4b4d4f; }
 
 #about-us .study:hover {
-  background-image: url(../assets/img/about-us/instructor.png); }
+  background-color: #4b4d4f; }
 
 #about-us .school:hover {
-  background-image: url(../assets/img/about-us/training.png); }
+  background-color: #4b4d4f; }
 
 #about-us .graduation:hover {
-  background-image: url(../assets/img/about-us/certifiate.png); }
+  background-color: #4b4d4f; }
 
 #about-us a {
   text-transform: capitalize; }
