@@ -55,14 +55,19 @@
     font-size: 1rem !important; }
   #admission a {
     font-size: .9rem !important; }
-  #contact-us .about p {
-    text-align: center !important; }
-  #contact-us .quick-links {
-    display: none; }
-  #contact-us .question h4 {
-    text-align: center !important; }
-  #contact-us .question h6 {
-    text-align: center !important; }
+  #news-item p {
+    font-size: .7rem !important; }
+  #contact-us {
+    padding: 2rem 0;
+    height: 100% !important; }
+    #contact-us .about p {
+      text-align: center !important; }
+    #contact-us .quick-links {
+      display: none; }
+    #contact-us .question h4 {
+      text-align: center !important; }
+    #contact-us .question h6 {
+      text-align: center !important; }
   #about-us-page h2 {
     font-size: 1.2rem !important; }
   #about-us-page p {
@@ -100,14 +105,19 @@
     font-size: 1rem !important; }
   #admission a {
     font-size: .9rem !important; }
-  #contact-us .about p {
-    text-align: center !important; }
-  #contact-us .quick-links {
-    display: none; }
-  #contact-us .question h4 {
-    text-align: center !important; }
-  #contact-us .question h6 {
-    text-align: center !important; } }
+  #contact-us {
+    padding: 2rem 0;
+    height: 100% !important; }
+    #contact-us .about p {
+      text-align: center !important; }
+    #contact-us .quick-links {
+      display: none; }
+    #contact-us .question {
+      margin: 0 !important; }
+      #contact-us .question h4 {
+        text-align: center !important; }
+      #contact-us .question h6 {
+        text-align: center !important; } }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   #desktop_nav {
@@ -115,9 +125,14 @@
     #desktop_nav .nav-item {
       margin: 5px auto; }
     #desktop_nav .lang {
-      padding: 5px 25px; } }
+      padding: 5px 25px; }
+  #contact-us .about {
+    margin: 0 auto; }
+  #contact-us .quick-links {
+    margin: 0 auto;
+    text-align: center; } }
 
-.offset:before {
+.offset:after {
   height: 2rem;
   margin-top: -4rem;
   content: "";
@@ -185,7 +200,7 @@ body {
   letter-spacing: 0.08rem;
   background: rgba(0, 0, 0, 0.3) !important; }
   .navbar img {
-    height: 3.1rem !important; }
+    height: 4rem !important; }
   .navbar h6 {
     font-size: 1.5rem; }
   .navbar a {
@@ -478,11 +493,11 @@ body {
     min-width: 400px; } }
 
 #contact-us {
-  margin-top: 2rem;
+  overflow: hidden;
+  padding: 1.5rem 0;
+  height: 100% !important;
   background-color: #4d4b4bea;
   color: white;
-  width: 100vw;
-  height: 100%;
   font-family: "Lato", sans-serif; }
   #contact-us .line-contact {
     display: none; }
@@ -492,11 +507,9 @@ body {
   #contact-us .about {
     font-family: "Lato", sans-serif;
     text-align: center; }
-    #contact-us .about h4 {
-      margin-top: 0; }
     #contact-us .about img {
-      width: 70px;
-      height: 70px;
+      width: 40px;
+      height: 40px;
       margin: 0 auto; }
     #contact-us .about p {
       text-align: center;
@@ -527,15 +540,12 @@ body {
     #contact-us .quick-links li a {
       color: #e9e3e3;
       text-transform: uppercase; }
-  #contact-us .question ul {
-    margin-top: 2rem; }
-  #contact-us .question li {
-    list-style: none; }
   #contact-us .question h6 {
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 100;
-    text-align: left; }
+    text-align: left;
+    margin-left: 1.2rem; }
   #contact-us .question i {
     text-align: center;
     font-size: 1.3rem;
@@ -550,6 +560,8 @@ body {
     box-shadow: 0px 5px 20px rgba(85, 85, 85, 0.199);
     border: 0.05rem solid rgba(255, 255, 255, 0.507);
     margin: .8rem auto; }
+  #contact-us .aetec {
+    margin: .9rem !important; }
 
 #news-item {
   background-color: #d3d0d0; }
@@ -590,3 +602,27 @@ body {
     font-size: 1.1rem; }
   #about-us-page li {
     font-size: 1rem; }
+
+#admission-page {
+  font-family: "Lato", sans-serif;
+  margin: 5.5rem 0; }
+  #admission-page h1 {
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase; }
+  #admission-page .card {
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(204, 204, 204, 0.082); }
+  #admission-page .card-title {
+    text-align: center;
+    padding: .9rem 0 0 0;
+    text-transform: capitalize; }
+  #admission-page .card-body img {
+    margin: 0 0 .7rem 0;
+    width: 100%;
+    box-shadow: 0px 5px 20px rgba(85, 85, 85, 0.151); }
+  #admission-page .card-body p {
+    font-size: 1rem; }
+  #admission-page .card-body a {
+    text-transform: capitalize; }

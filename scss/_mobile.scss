@@ -46,8 +46,16 @@ $primary: #ccc;
      font-size: .9rem !important;
    }
  }
+
+ #news-item{
+   p {
+     font-size: .7rem !important;
+   }
+ }
  
  #contact-us{
+  padding: 2rem 0;
+  height: 100% !important;
   .about{
     p {
       text-align: center !important;
@@ -137,6 +145,8 @@ $primary: #ccc;
  }
  
  #contact-us{
+  padding: 2rem 0;
+  height: 100% !important;
   .about{
     p {
       text-align: center !important;
@@ -147,6 +157,7 @@ $primary: #ccc;
   }
  
   .question {
+    margin: 0 !important;
    h4{
      text-align: center !important;
    }
@@ -168,7 +179,23 @@ $primary: #ccc;
       padding: 5px 25px;
     }
   }
+  #contact-us{
+    // padding: 2rem 0;
+    // height: 100% !important;
+    .about {
+      margin: 0 auto;
+    }
+    .quick-links{
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
  }
 
 // Extra large devices (large desktops, 1200px and up)
-@media screen and (min-width: 1200px) {  }
+@media screen and (min-width: 992) { 
+  // #contact-us{
+  //   padding: 2rem 0;
+  //   height: 100% !important;
+  // }
+ }
