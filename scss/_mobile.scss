@@ -36,7 +36,11 @@ $primary: #ccc;
    grid-gap: 1rem;
  }
 
-
+#about-us{
+  .heading{
+    margin-top:2.4rem;
+  }
+}
  #admission{
    .admission-text {
      font-size: 1rem !important;
