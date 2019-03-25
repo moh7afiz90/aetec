@@ -636,9 +636,11 @@ body {
     width: 100%;
     box-shadow: 0px 5px 20px rgba(85, 85, 85, 0.151); }
   #admission-page .card-body p {
-    font-size: 1rem; }
+    font-size: 1rem;
+    text-decoration: none;
+    color: black; }
   #admission-page .card-body a {
-    text-transform: capitalize; }
+    text-decoration: none; }
 
 #course-page .heading {
   margin-top: 6rem; }
