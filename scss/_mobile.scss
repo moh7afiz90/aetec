@@ -76,26 +76,32 @@ $primary: #ccc;
  }
 
  // About Us Page
-#about-us-page{
-  // margin: 5rem 0;
-  h2 {
-    font-size: 1.2rem !important;
+  #about-us-page{
+    // margin: 5rem 0;
+    h2 {
+      font-size: 1.2rem !important;
+    }
+    p {
+      letter-spacing: 0.08rem;
+      text-align: justify;
+      font-size: .9rem !important;
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      font-size: 1.1rem;
+    }
+    li {
+      font-size: .8rem !important;
+    }
   }
-  p {
-    letter-spacing: 0.08rem;
-    text-align: justify;
-    font-size: .9rem !important;
-    margin: 0;
-    padding: 0;
+  #course-page{
+    .card{
+      img{
+        margin-bottom: 1rem;
+      }
+    }
   }
-  h5 {
-    font-size: 1.1rem;
-  }
-  li {
-    font-size: .8rem !important;
-  }
-}
-  
 }
 
 
@@ -166,6 +172,13 @@ $primary: #ccc;
     }
   }
  }
+ #course-page{
+  .card{
+    img{
+      margin: 1rem auto;
+    }
+  }
+}
 }
 
 // Large devices (desktops, 992px and up)

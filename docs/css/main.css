@@ -79,7 +79,9 @@
   #about-us-page h5 {
     font-size: 1.1rem; }
   #about-us-page li {
-    font-size: .8rem !important; } }
+    font-size: .8rem !important; }
+  #course-page .card img {
+    margin-bottom: 1rem; } }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   #desktop_nav {
@@ -117,7 +119,9 @@
       #contact-us .question h4 {
         text-align: center !important; }
       #contact-us .question h6 {
-        text-align: center !important; } }
+        text-align: center !important; }
+  #course-page .card img {
+    margin: 1rem auto; } }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   #desktop_nav {
@@ -198,7 +202,7 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 0.08rem;
-  background: rgba(0, 0, 0, 0.3) !important; }
+  background: rgba(0, 0, 0, 0.5) !important; }
   .navbar img {
     height: 4rem !important; }
   .navbar h6 {
@@ -209,6 +213,8 @@ body {
     font-weight: 900;
     color: white !important;
     transition: background 200ms ease-in-out; }
+    .navbar a .active {
+      color: #f82249 !important; }
     .navbar a:hover {
       font-weight: 900;
       color: #f82249 !important;
@@ -246,125 +252,122 @@ body {
     width: 30px;
     outline: white; }
 
-#about-us .jumbotron {
-  background-color: white; }
-
-#about-us #accordion .card {
-  border-radius: 0;
-  border: 0;
-  margin-top: 0; }
-  #about-us #accordion .card .card-body {
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    background-color: rgba(204, 204, 204, 0.158); }
-    #about-us #accordion .card .card-body h6 {
-      font-size: 1.3rem; }
-  #about-us #accordion .card button {
-    display: block;
-    border-bottom: 1px solid #0b5cf1;
-    text-decoration: none; }
-  #about-us #accordion .card .card-header {
-    padding: 0;
+#about-us {
+  margin-top: 2rem; }
+  #about-us .jumbotron {
+    background-color: white; }
+  #about-us #accordion .card {
     border-radius: 0;
-    background-color: #fff;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase; }
-    #about-us #accordion .card .card-header .btn-link {
-      font-size: 1.2rem; }
-    #about-us #accordion .card .card-header:hover, #about-us #accordion .card .card-header:focus {
-      background-color: #0b5cf1;
-      color: white;
-      transition: all 0.2s ease-in; }
-    #about-us #accordion .card .card-header:hover::before, #about-us #accordion .card .card-header:focus::before {
-      color: white; }
-
-#about-us .card-deck {
-  margin: 3rem 0; }
-  #about-us .card-deck .card {
-    padding: 3rem 1rem;
-    border: 1px solid #ccc;
-    border-radius: 10px; }
-    #about-us .card-deck .card i {
-      font-size: 5rem;
-      text-align: center;
-      opacity: 0.6; }
-    #about-us .card-deck .card h3 {
-      text-align: center;
-      font-size: 0.8rem;
-      margin-top: 1rem;
+    border: 0;
+    margin-top: 0; }
+    #about-us #accordion .card .card-body {
       font-family: "Lato", sans-serif;
-      text-transform: capitalize; }
-    #about-us .card-deck .card:hover {
-      box-shadow: 0px 5px 20px #555;
-      background-size: cover;
-      background-repeat: no-repeat;
-      transition: all .3s ease-in-out; }
-      #about-us .card-deck .card:hover h3 {
-        opacity: 1;
-        color: white; }
-      #about-us .card-deck .card:hover i {
-        color: white;
-        opacity: 1; }
-
-#about-us .course:hover {
-  background-color: #4b4d4f; }
-
-#about-us .study:hover {
-  background-color: #4b4d4f; }
-
-#about-us .school:hover {
-  background-color: #4b4d4f; }
-
-#about-us .graduation:hover {
-  background-color: #4b4d4f; }
-
-#about-us a {
-  text-transform: capitalize; }
-  #about-us a:hover {
-    color: white;
-    cursor: pointer; }
-
-#course .card {
-  width: 260px;
-  height: 400px;
-  margin: 0.5rem;
-  background-color: white;
-  box-shadow: 0px 5px 20px #555; }
-  #course .card a {
-    color: #333;
-    text-decoration: none; }
-  #course .card .card-image {
-    height: 400px;
-    position: relative;
-    overflow: hidden; }
-    #course .card .card-image img {
-      width: 100%;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      filter: grayscale(1);
-      transition-property: filter width;
-      transition-duration: .3s; }
-  #course .card:hover .card-image img {
-    width: 110%;
-    filter: grayscale(0); }
-  #course .card .card-body {
-    font-family: #0b5cf1; }
-    #course .card .card-body .card-title {
+      text-align: center;
+      background-color: rgba(204, 204, 204, 0.158); }
+      #about-us #accordion .card .card-body h6 {
+        font-size: 1.3rem; }
+    #about-us #accordion .card button {
+      display: block;
+      border-bottom: 1px solid #0b5cf1;
+      text-decoration: none; }
+    #about-us #accordion .card .card-header {
+      padding: 0;
+      border-radius: 0;
+      background-color: #fff;
+      text-align: center;
+      font-family: "Lato", sans-serif;
       text-transform: uppercase; }
-      #course .card .card-body .card-title h3 {
-        font-size: 1rem;
-        text-align: center; }
-    #course .card .card-body a {
-      text-transform: uppercase;
-      font-size: .9rem; }
-      #course .card .card-body a:hover {
+      #about-us #accordion .card .card-header .btn-link {
+        font-size: 1.2rem; }
+      #about-us #accordion .card .card-header:hover, #about-us #accordion .card .card-header:focus {
+        background-color: #0b5cf1;
+        color: white;
+        transition: all 0.2s ease-in; }
+      #about-us #accordion .card .card-header:hover::before, #about-us #accordion .card .card-header:focus::before {
         color: white; }
+  #about-us .card-deck {
+    margin: 3rem 0; }
+    #about-us .card-deck .card {
+      padding: 3rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px; }
+      #about-us .card-deck .card i {
+        font-size: 5rem;
+        text-align: center;
+        opacity: 0.6; }
+      #about-us .card-deck .card h3 {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        font-family: "Lato", sans-serif;
+        text-transform: capitalize; }
+      #about-us .card-deck .card:hover {
+        box-shadow: 0px 5px 20px #555;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all .3s ease-in-out; }
+        #about-us .card-deck .card:hover h3 {
+          opacity: 1;
+          color: white; }
+        #about-us .card-deck .card:hover i {
+          color: white;
+          opacity: 1; }
+  #about-us .course:hover {
+    background-color: #4b4d4f; }
+  #about-us .study:hover {
+    background-color: #4b4d4f; }
+  #about-us .school:hover {
+    background-color: #4b4d4f; }
+  #about-us .graduation:hover {
+    background-color: #4b4d4f; }
+  #about-us a {
+    text-transform: capitalize; }
+    #about-us a:hover {
+      color: white;
+      cursor: pointer; }
+
+#course {
+  padding: 5.5rem 0; }
+  #course .card {
+    width: 260px;
+    height: 400px;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 0px 5px 20px #555; }
+    #course .card a {
+      color: #333;
+      text-decoration: none; }
+    #course .card .card-image {
+      height: 400px;
+      position: relative;
+      overflow: hidden; }
+      #course .card .card-image img {
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: grayscale(1);
+        transition-property: filter width;
+        transition-duration: .3s; }
+    #course .card:hover .card-image img {
+      width: 110%;
+      filter: grayscale(0); }
+    #course .card .card-body {
+      font-family: #0b5cf1; }
+      #course .card .card-body .card-title {
+        text-transform: uppercase; }
+        #course .card .card-body .card-title h3 {
+          font-size: 1rem;
+          text-align: center; }
+      #course .card .card-body a {
+        text-transform: uppercase;
+        font-size: .9rem; }
+        #course .card .card-body a:hover {
+          color: white; }
 
 #news {
-  margin: 0; }
+  margin-top: 2.5rem; }
   #news .jumbotron {
     background-color: rgba(204, 204, 204, 0.11); }
   #news .news-card {
@@ -546,6 +549,14 @@ body {
     font-weight: 100;
     text-align: left;
     margin-left: 1.2rem; }
+  #contact-us .question a {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    text-align: left; }
   #contact-us .question i {
     text-align: center;
     font-size: 1.3rem;
@@ -626,3 +637,21 @@ body {
     font-size: 1rem; }
   #admission-page .card-body a {
     text-transform: capitalize; }
+
+#course-page .heading {
+  margin-top: 6rem; }
+
+#course-page .card {
+  background-color: #90909011;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  padding: 1rem;
+  margin: 1rem; }
+  #course-page .card img {
+    width: 100%;
+    padding: auto 0;
+    box-shadow: 0px 5px 20px rgba(85, 85, 85, 0.432); }
+  #course-page .card h2 {
+    font-size: 2rem; }
+  #course-page .card li {
+    font-size: 1rem; }
