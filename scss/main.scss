@@ -1,11 +1,13 @@
 @import 'common';
 @import 'mobile';
+@import 'arab';
 @import 'about-us';
 // @import "bootstrap";
 // @import "bootstrap/functions";
 // @import "bootstrap/variables";
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Cairo&subset=arabic');
 
 $font-family: 'Lato', sans-serif;
 $primary-color: rgb(11, 92, 241);
