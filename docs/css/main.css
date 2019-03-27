@@ -404,6 +404,28 @@
           #arab #about-us .card-deck .card:hover i {
             color: white;
             opacity: 1; }
+  #arab #about-us-page {
+    margin: 5rem 0; }
+    #arab #about-us-page .card {
+      margin: 0.4rem;
+      padding: 1rem;
+      background-color: rgba(204, 204, 204, 0.178);
+      font-family: "Lato", sans-serif; }
+    #arab #about-us-page h2 {
+      font-size: 2rem;
+      text-transform: capitalize;
+      padding: 1rem .5rem; }
+    #arab #about-us-page p {
+      letter-spacing: 0.08rem;
+      text-align: justify !important;
+      font-size: 1.1rem;
+      margin: 0;
+      padding: 0; }
+    #arab #about-us-page h5 {
+      font-size: 1.1rem; }
+    #arab #about-us-page li {
+      font-size: 1rem;
+      list-style-type: none !important; }
 
 .offset:after {
   height: 2rem;

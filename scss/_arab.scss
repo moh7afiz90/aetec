@@ -375,4 +375,34 @@ $primary: #ccc;
       }
     }
   }
+  #about-us-page{
+    .card{
+      margin: 0.4rem;
+      padding: 1rem;
+      // text-align: left;
+      background-color: rgba(204, 204, 204, 0.178);
+      font-family: $font-family;
+    }
+    margin: 5rem 0;
+    h2 {
+      font-size: 2rem;
+      text-transform: capitalize;
+      padding: 1rem .5rem;
+    }
+    p {
+      letter-spacing: 0.08rem;
+      text-align: justify !important;
+      font-size: 1.1rem;
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      font-size: 1.1rem;
+    }
+    
+    li {
+      font-size: 1rem;
+      list-style-type: none !important;
+    }
+  }
 }
