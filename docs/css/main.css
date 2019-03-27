@@ -404,28 +404,129 @@
           #arab #about-us .card-deck .card:hover i {
             color: white;
             opacity: 1; }
-  #arab #about-us-page {
-    margin: 5rem 0; }
-    #arab #about-us-page .card {
+  #arab #course {
+    padding: 5.5rem 0; }
+    #arab #course .card {
+      width: 260px;
+      height: 400px;
+      margin: 0.5rem;
+      background-color: white;
+      box-shadow: 0px 5px 20px #555; }
+      #arab #course .card a {
+        color: #333;
+        text-decoration: none; }
+      #arab #course .card .card-image {
+        height: 400px;
+        position: relative;
+        overflow: hidden; }
+        #arab #course .card .card-image img {
+          width: 100%;
+          transform: translate(-50%, -50%);
+          filter: grayscale(1);
+          transition-property: filter width;
+          transition-duration: .3s; }
+      #arab #course .card:hover .card-image img {
+        width: 110%;
+        filter: grayscale(0); }
+      #arab #course .card .card-body {
+        font-family: #0b5cf1; }
+        #arab #course .card .card-body .card-title {
+          padding-top: 1rem;
+          text-transform: uppercase; }
+          #arab #course .card .card-body .card-title h3 {
+            font-size: 1.3rem;
+            text-align: center; }
+        #arab #course .card .card-body a {
+          text-transform: uppercase;
+          font-size: .9rem; }
+          #arab #course .card .card-body a:hover {
+            color: white; }
+  #arab #news {
+    margin-top: 2.5rem; }
+    #arab #news .jumbotron {
+      background-color: rgba(204, 204, 204, 0.11); }
+    #arab #news .news-card {
       margin: 0.4rem;
       padding: 1rem;
-      background-color: rgba(204, 204, 204, 0.178);
+      text-align: left;
+      background-color: #fff;
       font-family: "Lato", sans-serif; }
-    #arab #about-us-page h2 {
-      font-size: 2rem;
+      #arab #news .news-card .news-card-img {
+        width: 100%; }
+      #arab #news .news-card h6 {
+        text-transform: capitalize;
+        font-size: 2rem; }
+      #arab #news .news-card .date {
+        color: #807b7b;
+        font-size: 1rem; }
+      #arab #news .news-card p {
+        text-align: justify;
+        font-size: .9rem; }
+  #arab #admission {
+    padding: 2rem;
+    background-color: #fff; }
+    #arab #admission .heading {
+      margin-top: 4rem; }
+    #arab #admission img {
+      width: 100%;
+      height: 80%;
+      box-shadow: 0px 5px 20px #555; }
+    #arab #admission p {
+      font-size: 1.3rem;
+      padding: 1.8rem;
+      margin: 1rem;
+      font-family: "Lato", sans-serif;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      background-color: rgba(204, 204, 204, 0.158); }
+    #arab #admission a {
       text-transform: capitalize;
-      padding: 1rem .5rem; }
-    #arab #about-us-page p {
-      letter-spacing: 0.08rem;
-      text-align: justify !important;
-      font-size: 1.1rem;
-      margin: 0;
-      padding: 0; }
-    #arab #about-us-page h5 {
-      font-size: 1.1rem; }
-    #arab #about-us-page li {
-      font-size: 1rem;
-      list-style-type: none !important; }
+      font-family: "Lato", sans-serif;
+      font-size: 1.3rem; }
+      #arab #admission a:hover {
+        color: white; }
+  #arab #about-us-page .card {
+    margin: 0.4rem;
+    padding: 1rem;
+    background-color: rgba(204, 204, 204, 0.178);
+    font-family: "Lato", sans-serif;
+    margin: 1.2rem 0; }
+  #arab #about-us-page h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: .1rem .5rem; }
+  #arab #about-us-page p {
+    letter-spacing: 0.08rem;
+    text-align: justify !important;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0; }
+  #arab #about-us-page h5 {
+    font-size: 1.1rem; }
+  #arab #about-us-page li {
+    font-size: 1.3rem;
+    letter-spacing: 0.08rem;
+    padding: .5rem 0;
+    list-style-type: square; }
+  #arab #course-page .heading {
+    margin-top: 6rem; }
+  #arab #course-page .card {
+    background-color: #90909011;
+    font-family: "Lato", sans-serif;
+    text-transform: capitalize;
+    padding: 1rem;
+    margin: 1rem; }
+    #arab #course-page .card img {
+      width: 100%;
+      padding: auto 0;
+      box-shadow: 0px 5px 20px rgba(85, 85, 85, 0.432); }
+    #arab #course-page .card h2 {
+      text-align: right;
+      font-size: 2rem; }
+    #arab #course-page .card li {
+      font-size: 1.3rem;
+      list-style-type: none;
+      text-align: right; }
 
 .offset:after {
   height: 2rem;
