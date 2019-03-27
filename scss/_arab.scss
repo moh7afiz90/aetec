@@ -81,7 +81,19 @@ $primary: #ccc;
       text-align: center !important;
     }
   }
+  }
+  .subscribe{
+    form{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    input {
+      margin: 5px 5px !important;
+    }
+    
  }
+
 
  // About Us Page
   #about-us-page{
@@ -160,7 +172,16 @@ $primary: #ccc;
      font-size: .9rem !important;
    }
  }
- 
+ .subscribe{
+  form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  input {
+    margin: 5px 5px !important;
+  }
+
  #contact-us{
   padding: 2rem 0;
   height: 100% !important;
@@ -169,6 +190,8 @@ $primary: #ccc;
       text-align: center !important;
     }
   }
+    
+ }
   .quick-links{
     display: none;
   }
@@ -194,6 +217,8 @@ $primary: #ccc;
 
 // Large devices (desktops, 992px and up)
 @media screen and (min-width: 768px) and (max-width: 991.98px) { 
+  
+  
   #desktop_nav{
     background: rgba(rgb(0, 0, 0),.8) !important;
     .nav-item{
@@ -201,6 +226,17 @@ $primary: #ccc;
     }
     .lang{
       padding: 5px 25px;
+    }
+  }
+
+  .subscribe{
+    form{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    input {
+      margin: 5px 5px !important;
     }
   }
   #contact-us{
@@ -355,9 +391,10 @@ $primary: #ccc;
         min-height: 30vh;
     }
   
-    .subscribe:before {
+    .subscribe:after {
       content: "";
       background: rgba(6, 12, 34, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.178);
       position: relative;
       bottom: 0;
       top: 0;
@@ -395,6 +432,7 @@ $primary: #ccc;
       outline: none;
       font-size: 14px;
       border-radius: 50px;
+      border: 1px solid white;
     }
   
     .subscribe button:hover {

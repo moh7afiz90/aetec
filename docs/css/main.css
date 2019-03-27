@@ -33,6 +33,12 @@
   -ms-filter: "alpha(opacity=100)"; }
 
 @media screen and (max-width: 576px) {
+  .subscribe form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+  .subscribe input {
+    margin: 5px 5px !important; }
   #desktop_nav {
     background: rgba(0, 0, 0, 0.8) !important; }
     #desktop_nav .nav-item {
@@ -87,6 +93,12 @@
     margin-bottom: 1rem; } }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .subscribe form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+  .subscribe input {
+    margin: 5px 5px !important; }
   #desktop_nav {
     background: rgba(0, 0, 0, 0.8) !important; }
     #desktop_nav .nav-item {
@@ -178,6 +190,12 @@
       text-align: center !important; }
     #contact-us .question h6 {
       text-align: center !important; }
+  .subscribe form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+  .subscribe input {
+    margin: 5px 5px !important; }
   #about-us-page h2 {
     font-size: 1.2rem !important; }
   #about-us-page p {
@@ -219,19 +237,25 @@
     font-size: 1rem !important; }
   #admission a {
     font-size: .9rem !important; }
-  #contact-us {
+  .subscribe form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+  .subscribe input {
+    margin: 5px 5px !important; }
+  .subscribe #contact-us {
     padding: 2rem 0;
     height: 100% !important; }
-    #contact-us .about p {
+    .subscribe #contact-us .about p {
       text-align: center !important; }
-    #contact-us .quick-links {
-      display: none; }
-    #contact-us .question {
-      margin: 0 !important; }
-      #contact-us .question h4 {
-        text-align: center !important; }
-      #contact-us .question h6 {
-        text-align: center !important; }
+  .subscribe .quick-links {
+    display: none; }
+  .subscribe .question {
+    margin: 0 !important; }
+    .subscribe .question h4 {
+      text-align: center !important; }
+    .subscribe .question h6 {
+      text-align: center !important; }
   #course-page .card img {
     margin: 1rem auto; } }
 
@@ -242,6 +266,12 @@
       margin: 5px auto; }
     #desktop_nav .lang {
       padding: 5px 25px; }
+  .subscribe form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+  .subscribe input {
+    margin: 5px 5px !important; }
   #contact-us .about {
     margin: 0 auto; }
   #contact-us .quick-links {
@@ -350,9 +380,10 @@
     overflow: hidden;
     position: relative;
     min-height: 30vh; }
-  #arab #subscribe .subscribe:before {
+  #arab #subscribe .subscribe:after {
     content: "";
     background: rgba(6, 12, 34, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.178);
     position: relative;
     bottom: 0;
     top: 0;
@@ -381,7 +412,8 @@
     transition: all 0.3s ease;
     outline: none;
     font-size: 14px;
-    border-radius: 50px; }
+    border-radius: 50px;
+    border: 1px solid white; }
   #arab #subscribe .subscribe button:hover {
     background: transparent;
     color: #fff;
@@ -1000,7 +1032,8 @@ body {
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
-  border-radius: 50px; }
+  border-radius: 50px;
+  border: 1px solid white; }
 
 #subscribe .subscribe button:hover {
   background: transparent;
