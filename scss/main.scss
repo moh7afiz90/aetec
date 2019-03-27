@@ -434,7 +434,7 @@ body{
   .subscribe:before {
     content: "";
     background: rgba(6, 12, 34, 0.6);
-    position: absolute;
+    position: relative;
     bottom: 0;
     top: 0;
     left: 0;
@@ -445,14 +445,18 @@ body{
   .subscribe p {
     color: #fff;
   }
+  form{
+    display: flex;
+    justify-content: center;
 
+  }
   .subscribe input {
     background: #fff;
     color: #060c22;
     border: 0;
     outline: none;
-    margin: 0;
-    padding: 9px 20px;
+    margin: 0 5px;
+    padding: 9px 10px;
     border-radius: 50px;
     font-size: 14px;
   }

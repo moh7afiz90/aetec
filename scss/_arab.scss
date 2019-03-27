@@ -2,7 +2,232 @@ $font-family-arabic: 'Cairo', sans-serif;
 $primary-color: rgb(11, 92, 241);
 $white-color: #fff;
 $primary: #ccc;
+// $font-family: 'Lato', sans-serif;
+// $primary-color: rgb(11, 92, 241);
+// $white-color: #fff;
+// $primary: #ccc;
+// Extra small devices (portrait phones, less than 576px)
+@media screen and (max-width: 576px) { 
+  // navBar
+  #desktop_nav{
+    background: rgba(rgb(0, 0, 0),.8) !important;
+    .nav-item{
+      margin: 5px auto;
+    }
+    .lang{
+      padding: 5px 25px;
+    }
+  }
+  // carousel
+  .carousel-inner {
+    h1 {
+      font-size: 2.1rem !important;
+      text-align: rigth;
+    }
+    h4 {
+      font-size: 1.7rem !important;
+      text-align: right;
+    }
+    a {
+      text-align: right;
+      font-size: .9rem !important;
+    }
+  }
+  // About Us 
+ .card-deck{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+ }
 
+#about-us{
+  .heading{
+    margin-top:2.4rem;
+  }
+}
+ #admission{
+   .admission-text {
+     font-size: 1rem !important;
+   }
+
+   a{
+     font-size: .9rem !important;
+   }
+ }
+
+ #news-item{
+   p {
+     font-size: .7rem !important;
+   }
+ }
+ 
+ #contact-us{
+  padding: 2rem 0;
+  height: 100% !important;
+  .about{
+    p {
+      text-align: center !important;
+    }
+  }
+  .quick-links{
+    display: none;
+  }
+ 
+  .question {
+   h4{
+     text-align: center !important;
+   }
+   h6 {
+      text-align: center !important;
+    }
+  }
+ }
+
+ // About Us Page
+  #about-us-page{
+    // margin: 5rem 0;
+    h2 {
+      font-size: 1.2rem !important;
+    }
+    p {
+      letter-spacing: 0.08rem;
+      text-align: justify;
+      font-size: .9rem !important;
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      font-size: 1.1rem;
+    }
+    li {
+      font-size: .8rem !important;
+    }
+  }
+  #course-page{
+    .card{
+      img{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  #news{
+    padding-top: 1rem;
+  }
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 576px) and (max-width: 767.98px) { 
+  #desktop_nav{
+    background: rgba(rgb(0, 0, 0),.8) !important;
+    .nav-item{
+      margin: 5px auto;
+    }
+    .lang{
+      padding: 5px 25px;
+    }
+  }
+  // carousel
+  .carousel-inner {
+    h1 {
+      font-size: 2.1rem !important;
+      text-align: left;
+    }
+    h4 {
+      font-size: 1.7rem !important;
+      text-align: left;
+    }
+    a {
+      text-align: center;
+      font-size: 5px;
+    }
+  }
+  // About Us 
+ .card-deck{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+ }
+
+
+ #admission{
+   .admission-text {
+     font-size: 1rem !important;
+   }
+
+   a{
+     font-size: .9rem !important;
+   }
+ }
+ 
+ #contact-us{
+  padding: 2rem 0;
+  height: 100% !important;
+  .about{
+    p {
+      text-align: center !important;
+    }
+  }
+  .quick-links{
+    display: none;
+  }
+ 
+  .question {
+    margin: 0 !important;
+   h4{
+     text-align: center !important;
+   }
+   h6 {
+      text-align: center !important;
+    }
+  }
+ }
+ #course-page{
+  .card{
+    img{
+      margin: 1rem auto;
+    }
+  }
+}
+}
+
+// Large devices (desktops, 992px and up)
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
+  #desktop_nav{
+    background: rgba(rgb(0, 0, 0),.8) !important;
+    .nav-item{
+      margin: 5px auto;
+    }
+    .lang{
+      padding: 5px 25px;
+    }
+  }
+  #contact-us{
+    // padding: 2rem 0;
+    // height: 100% !important;
+    .about {
+      margin: 0 auto;
+    }
+    .quick-links{
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (min-width: 992px) { 
+  #desktop_nav{
+    background: rgba(rgb(0, 0, 0),.8) !important;
+    .nav-item{
+      margin: 5px auto;
+    }
+    .lang{
+      padding: 5px 25px;
+    }
+  }
+ }
 #arab{
   /* NavBar */
   font-family: $font-family-arabic;
@@ -108,7 +333,11 @@ $primary: #ccc;
       font-weight: 700;
       margin-bottom: 10px;
     }
+    form{
+      display: flex;
+      justify-content: center;
   
+    }
     .section-header p {
       text-align: center;
       padding: 0;
@@ -129,7 +358,7 @@ $primary: #ccc;
     .subscribe:before {
       content: "";
       background: rgba(6, 12, 34, 0.6);
-      position: absolute;
+      position: relative;
       bottom: 0;
       top: 0;
       left: 0;
@@ -146,8 +375,8 @@ $primary: #ccc;
       color: #060c22;
       border: 0;
       outline: none;
-      margin: 0;
-      padding: 9px 20px;
+      margin: 0 5px;
+      padding: 9px 10px;
       border-radius: 50px;
       font-size: 14px;
       &::placeholder{
