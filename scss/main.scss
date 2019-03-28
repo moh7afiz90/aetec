@@ -299,6 +299,9 @@ body{
         transition-duration: .3s;
       }
     }
+    p{
+      text-align: justify;
+    }
     &:hover .card-image img {
       width: 110%;
       filter: grayscale(0);

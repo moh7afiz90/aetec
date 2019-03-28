@@ -45,15 +45,6 @@
       margin: 5px auto; }
     #desktop_nav .lang {
       padding: 5px 25px; }
-  .carousel-inner h1 {
-    font-size: 2.1rem !important;
-    text-align: left; }
-  .carousel-inner h4 {
-    font-size: 1.7rem !important;
-    text-align: left; }
-  .carousel-inner a {
-    text-align: center;
-    font-size: .9rem !important; }
   .card-deck {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,7 +52,8 @@
   #about-us .heading {
     margin-top: 2.4rem; }
   #admission .admission-text {
-    font-size: 1rem !important; }
+    font-size: 1rem !important;
+    text-align: left !important; }
   #admission a {
     font-size: .9rem !important; }
   #news-item p {
@@ -894,6 +886,8 @@ body {
         filter: grayscale(1);
         transition-property: filter width;
         transition-duration: .3s; }
+    #course .card p {
+      text-align: justify; }
     #course .card:hover .card-image img {
       width: 110%;
       filter: grayscale(0); }

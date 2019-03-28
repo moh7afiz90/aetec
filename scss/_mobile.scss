@@ -23,21 +23,7 @@ $primary: #ccc;
       padding: 5px 25px;
     }
   }
-  // carousel
-  .carousel-inner {
-    h1 {
-      font-size: 2.1rem !important;
-      text-align: left;
-    }
-    h4 {
-      font-size: 1.7rem !important;
-      text-align: left;
-    }
-    a {
-      text-align: center;
-      font-size: .9rem !important;
-    }
-  }
+ 
   // About Us 
  .card-deck{
    display: grid;
@@ -53,6 +39,7 @@ $primary: #ccc;
  #admission{
    .admission-text {
      font-size: 1rem !important;
+     text-align: left !important;
    }
 
    a{
